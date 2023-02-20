@@ -1,0 +1,83 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(228, 203, 142);
+}
+
+.wrapper{
+    /* background: rgb(221, 221, 124); */
+    border: 1px solid red;
+    width: 600px;
+    padding: 10px 10px;
+    box-shadow: 0 0 20px 10px red;
+}
+
+.wrapper .tab{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 0px 40px;
+    gap: 50px;
+    /* padding: 20px; */
+    background: rgb(145, 218, 103);
+    box-shadow: 0 0 20px 10px rgb(145, 218, 103);
+
+    
+}
+
+
+.wrapper .myself{
+    padding: 0px 20px;
+}
+
+.wrapper .about{
+    padding: 0px 20px;
+    display: none;
+}
+
+.wrapper .tab div{
+    cursor: pointer;
+    width: 100px;
+    height: 20px;
+    color: red;
+}
+.wrapper .tab div:hover{
+    transform: scale(1.2);
+}
+
+.wrapper .block{
+    display: none;
+}
+
+.wrapper .active{
+    padding: 0px 20px;
+    display: block;
+}
+
+.parent .home{
+    background: rgb(226, 217, 88);
+    box-shadow: 0 0 20px 10px rgb(218, 211, 113);
+
+}
+
+.parent .myself{
+    background: rgb(142, 219, 142);
+    box-shadow: 0 0 20px 10px rgb(168, 240, 168);
+
+}
+
+.parent .about{
+    background: rgb(223, 137, 173);
+    box-shadow: 0 0 20px 10px rgb(235, 129, 173);
+
+}
+
+
+
+
+
+
+
+
